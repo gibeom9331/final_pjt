@@ -44,7 +44,7 @@
   <img src="https://img.shields.io/badge/mongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white">
   <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white">
   <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white">
-  <img src="https://img.shields.io/badge/Amazon CodeDeploy-#527FFF?style=for-the-badge&logoColor=white">
+  <img src="https://img.shields.io/badge/Amazon CodeDeploy-527FFF?style=for-the-badge&logoColor=white">
   <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
 </div>
 
