@@ -12,7 +12,7 @@
   <tbody>
     <tr>
       <td align="center"><a href=""><img src="https://pbs.twimg.com/media/E4VZkLvVgAQC5GU.jpg" width=110px;" alt=""/><br /><sub><b>유상범</b></sub></a><br /></td>
-      <td align="center"><a href=""><img src="https://upload3.inven.co.kr/upload/2023/12/17/bbs/i15552721117.jpg" width="110px" height="150px";alt=""/><br /><sub><b>강이삭</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/isak-kangs"><img src="https://upload3.inven.co.kr/upload/2023/12/17/bbs/i15552721117.jpg" width="110px" height="150px";alt=""/><br />[<img src="https://img.shields.io/badge/Github-181717?logo=Github">](https://github.com/noctesilente)<sub><b>강이삭</b></sub></a><br /></td>
       <td align="center"><a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiW3TaT-mMeBtq8Lg4v0xeqEa7jj0Vf9RBPg&s" width="120px;" height = "140px"alt=""/><br /><sub><b>강진모</b></sub></a><br /></td>
      <tr/>
       <td align="center"><a href=""><img src="https://cdn.ppomppu.co.kr/zboard/data3/2022/0509/20220509173224_d9N4ZGtBVR.jpeg" width="130px;" alt=""/><br /><sub><b>박기범</b></sub></a><br /></td>
@@ -63,7 +63,7 @@
 ## <div align=center>🗓️ 프로젝트 수행 기간 🗓️</div>
 
 <div align=center>
-2024.04.17 ~ 2024.06.14
+2024.11.28 ~ 2025.01.25
 </div>
 
 <div align=center>
