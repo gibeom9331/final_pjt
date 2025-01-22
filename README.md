@@ -72,19 +72,19 @@
 
 <br>
 
-## 🔗 기술적인 부분
+## 🔗 [기술적인 부분](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/2.-%EA%B8%B0%EC%88%A0%EC%A0%81%EC%9D%B8-%EB%B6%80%EB%B6%84)
 
 <br>
 
-## 🔗 프로젝트 문서
+## 🔗 [프로젝트 문서](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/3.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%AC%B8%EC%84%9C)
 
 <br>
 
-## 🔗CI/CD
+## 🔗 [CI/CD](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/4.-CI-CD)
 
 <br>
 
-## 🔗UI
+## 🔗[UI](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/5.-UI)
 
 
 
