@@ -11,12 +11,12 @@
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://github.com/YuSangBeom/"><img src="https://pbs.twimg.com/media/E4VZkLvVgAQC5GU.jpg" width=110px;" alt=""/><br /><sub><b>유상범</b></sub><br><img src="https://img.shields.io/badge/유상범-181717?logo=Github"></a><br /></td>
-      <td align="center"><a href="https://github.com/isak-kang"><img src="https://upload3.inven.co.kr/upload/2023/12/17/bbs/i15552721117.jpg" width="110px" height="150px";alt=""/><br /><sub><b>강이삭</b></sub><br><img src="https://img.shields.io/badge/강이삭-181717?logo=Github"></a><br /></td>
-      <td align="center"><a href="https://github.com/kjmfficial"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiW3TaT-mMeBtq8Lg4v0xeqEa7jj0Vf9RBPg&s" width="120px;" height = "140px"alt=""/><br /><sub><b>강진모</b></sub><br><img src="https://img.shields.io/badge/강진모-181717?logo=Github"></a><br /></td>
+      <td align="center"><a href="https://github.com/YuSangBeom/"><img src="https://pbs.twimg.com/media/E4VZkLvVgAQC5GU.jpg" width=110px;" alt=""/><br /><sub><b>유상범</b></sub><br><img src="https://img.shields.io/badge/Github-181717?logo=Github"></a><br /></td>
+      <td align="center"><a href="https://github.com/isak-kang"><img src="https://upload3.inven.co.kr/upload/2023/12/17/bbs/i15552721117.jpg" width="110px" height="150px";alt=""/><br /><sub><b>강이삭</b></sub><br><img src="https://img.shields.io/badge/Github-181717?logo=Github"></a><br /></td>
+      <td align="center"><a href="https://github.com/kjmfficial"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiW3TaT-mMeBtq8Lg4v0xeqEa7jj0Vf9RBPg&s" width="120px;" height = "140px"alt=""/><br /><sub><b>강진모</b></sub><br><img src="https://img.shields.io/badge/Github-181717?logo=Github"></a><br /></td>
      <tr/>
-      <td align="center"><a href="https://github.com/gibeom9331"><img src="https://cdn.ppomppu.co.kr/zboard/data3/2022/0509/20220509173224_d9N4ZGtBVR.jpeg" width="130px;" alt=""/><br /><sub><b>박기범</b></sub><br><img src="https://img.shields.io/badge/박기범-181717?logo=Github"></a><br /></td>
-      <td align="center"><a href="https://github.com/yoda2194"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpP7-Z-u3mQZnX2RveC1-VGmAhwc5ASjDeIa7sOkqwHH0rQlTjthqCuaI58uZ8Ip2B&usqp=CAU" width="110px;" alt=""/><br /><sub><b>유다은</b></sub><br><img src="https://img.shields.io/badge/유다은-181717?logo=Github"></a><br /></td>
+      <td align="center"><a href="https://github.com/gibeom9331"><img src="https://cdn.ppomppu.co.kr/zboard/data3/2022/0509/20220509173224_d9N4ZGtBVR.jpeg" width="130px;" alt=""/><br /><sub><b>박기범</b></sub><br><img src="https://img.shields.io/badge/Github-181717?logo=Github"></a><br /></td>
+      <td align="center"><a href="https://github.com/yoda2194"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpP7-Z-u3mQZnX2RveC1-VGmAhwc5ASjDeIa7sOkqwHH0rQlTjthqCuaI58uZ8Ip2B&usqp=CAU" width="110px;" alt=""/><br /><sub><b>유다은</b></sub><br><img src="https://img.shields.io/badge/Github-181717?logo=Github"></a><br /></td>
     </tr>
   </tbody>
 </table>
