@@ -68,7 +68,7 @@
 
 <div align=center>
 
-## [프로젝트 소개](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki)
+## 🔗 [프로젝트 소개](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki)
 
 <br>
 
