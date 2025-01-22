@@ -55,11 +55,11 @@
       <td><img src="https://pbs.twimg.com/media/E4VZkLvVgAQC5GU.jpg" style="width:150px; height:auto;" alt="유상범"></td>
     </tr>
     <tr>
-      <td>BE<br>FE<br>CI/CD<br>클라우드 관리<br>DB구축</td>
-      <td>PM<br>BE<br>FE<br>발표</td>
-      <td>AI<br>LLM<br>문서관리</td>
-      <td>BE<br>AI<br>LLM<br>발표자료</td>
-      <td>AI<br>LLM</td>
+      <td>BE / FE<br>CI/CD<br>클라우드 관리<br>DB구축</td>
+      <td>PM<br>BE / FE<br>발표</td>
+      <td>AI / LLM<br>문서관리</td>
+      <td>BE<br>AI / LLM<br>발표자료</td>
+      <td>AI / LLM</td>
     </tr>
     <tr>
       <td><a href="https://github.com/isak-kang" target="_blank">
