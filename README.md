@@ -1,12 +1,15 @@
-# <div align=center> lgu-final_project </div>
+# <div align=center> 청약 정보 제공 챗봇 </div>
 <div align=center> 
-  <p>LGU+ Final Project Team 1</p>
+  <p>LGU+ 2기 Final Project Team 1</p>
   <br>
   <p>상담 이력 기반 가상상담 시스템</p>
+  <br>
+  <p>청약 시장 진입을 준비하는 사회초년생을 대상으로 하는 청약 도우미 챗봇 서비스를 제공하고 있습니다!<br>
+  청약에 관련된 다양한 부가 서버스인 청약캘린더, 경쟁률 분석, 다가올 청약 등의 정보도 제공하고 있습니다!</p>
 </div>
 
 
-## <div align=center> 청약 정보 제공 챗봇 </div>
+## <div align=center> 😎 팀원소개 </div>
 <div align=center>
 <table>
   <tbody>
