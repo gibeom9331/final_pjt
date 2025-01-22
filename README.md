@@ -12,7 +12,7 @@
 </div>
 <br>
 
-## <div> 😎 팀원소개 </div>
+# <div> 😎 팀원소개 </div>
 <!-- <div>
 <table>
   <tbody>
@@ -86,7 +86,7 @@
 
 
 
-## <div>📚 Tech Stack 📚</div>
+# <div>📚 Tech Stack 📚</div>
 
 <div>
   <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
@@ -116,7 +116,7 @@
 
 
 
-## <div>📚 🛠 Tools 🛠 📚</div>
+# <div>📚 🛠 Tools 🛠 📚</div>
 <div>
   <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
   <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
@@ -124,7 +124,7 @@
   <img src="https://img.shields.io/badge/Visual Studio Code-007ACC.svg?style=for-the-badge&logo=Visual Studio Code&logoColor=white" />
 </div>
 
-## <div>🗓️ 프로젝트 수행 기간 🗓️</div>
+# <div>🗓️ 프로젝트 수행 기간 🗓️</div>
 
 <div>
 2024.11.28 ~ 2025.01.25
@@ -132,33 +132,33 @@
 
 <div>
 
-## 🔗 [프로젝트 소개](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki)
+# 🔗 [프로젝트 소개](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki)
 
 <br>
 
-## 🔗 [프로젝트 개요](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/1.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94)
+# 🔗 [프로젝트 개요](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/1.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94)
 
 <br>
 
-## 🔗 [기술적인 부분](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/2.-%EA%B8%B0%EC%88%A0%EC%A0%81%EC%9D%B8-%EB%B6%80%EB%B6%84)
+# 🔗 [기술적인 부분](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/2.-%EA%B8%B0%EC%88%A0%EC%A0%81%EC%9D%B8-%EB%B6%80%EB%B6%84)
 
 <br>
 
-## 🔗 [프로젝트 문서](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/3.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%AC%B8%EC%84%9C)
+# 🔗 [프로젝트 문서](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/3.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%AC%B8%EC%84%9C)
 
 <br>
 
-## 🔗 [CI/CD](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/4.-CI-CD)
+# 🔗 [CI/CD](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/4.-CI-CD)
 
 <br>
 
-## 🔗 [UI](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/5.-UI)
+# 🔗 [UI](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/5.-UI)
 
 <br>
 
 </div>
 
-## <div> 소감 </div>
+# <div> 소감 </div>
 <div>
 <h3>강이삭</h3>
 <p> 이렇게 많은 시간과 노력을 들인 프로젝트는 처음이었기에 하고 싶은것도 해야하는 것도 많은 프로젝트였습니다. 시간이 부족하여 하고 싶은걸 다 하지는 못했지만 좋은 팀원들과 협업하여 휼륭한 결과물을 낸것에 만족합니다. 이렇게 프로젝트의 끝이 왔지만 이번 기회를 통해 배운 협업방식, 기술, 기획 등의 능력은 앞으로도 많은 도움이 될 것 같습니다.</p>
