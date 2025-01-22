@@ -1,4 +1,4 @@
-# <div align=center> 🧿 청약 정보 제공 챗봇 </div>
+# <div> 🧿 청약 정보 제공 챗봇 </div>
 <div> 
   <p>LGU+ 2기 Final Project Team 1</p>
   <br>
@@ -12,8 +12,8 @@
 </div>
 <br>
 
-## <div align=center> 😎 팀원소개 </div>
-<!-- <div align=center>
+## <div> 😎 팀원소개 </div>
+<!-- <div>
 <table>
   <tbody>
     <tr>
@@ -86,9 +86,9 @@
 
 
 
-## <div align=center>📚 Tech Stack 📚</div>
+## <div>📚 Tech Stack 📚</div>
 
-<div align=center>
+<div>
   <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
@@ -116,21 +116,21 @@
 
 
 
-## <div align=center>📚 🛠 Tools 🛠 📚</div>
-<div align=center>
+## <div>📚 🛠 Tools 🛠 📚</div>
+<div>
   <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
   <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white" />
   <img src="https://img.shields.io/badge/Visual Studio Code-007ACC.svg?style=for-the-badge&logo=Visual Studio Code&logoColor=white" />
 </div>
 
-## <div align=center>🗓️ 프로젝트 수행 기간 🗓️</div>
+## <div>🗓️ 프로젝트 수행 기간 🗓️</div>
 
-<div align=center>
+<div>
 2024.11.28 ~ 2025.01.25
 </div>
 
-<div align=center>
+<div>
 
 ## 🔗 [프로젝트 소개](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki)
 
@@ -158,7 +158,7 @@
 
 </div>
 
-## <div align=center> 소감 </div>
+## <div> 소감 </div>
 <div>
 <h3>강이삭</h3>
 <p> 이렇게 많은 시간과 노력을 들인 프로젝트는 처음이었기에 하고 싶은것도 해야하는 것도 많은 프로젝트였습니다. 시간이 부족하여 하고 싶은걸 다 하지는 못했지만 좋은 팀원들과 협업하여 휼륭한 결과물을 낸것에 만족합니다. 이렇게 프로젝트의 끝이 왔지만 이번 기회를 통해 배운 협업방식, 기술, 기획 등의 능력은 앞으로도 많은 도움이 될 것 같습니다.</p>
