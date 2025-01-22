@@ -112,6 +112,7 @@
   <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white">
   <img src="https://img.shields.io/badge/Amazon CodeDeploy-527FFF?style=for-the-badge&logoColor=white">
   <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
+  <br>
 </div>
 
 
@@ -122,12 +123,14 @@
   <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white" />
   <img src="https://img.shields.io/badge/Visual Studio Code-007ACC.svg?style=for-the-badge&logo=Visual Studio Code&logoColor=white" />
+  <br>
 </div>
 
 # <div>🗓️ 프로젝트 수행 기간 🗓️</div>
 
 <div>
 2024.11.28 ~ 2025.01.25
+<br>
 </div>
 
 <div>
