@@ -1,5 +1,5 @@
 # <div align=center> 청약 정보 제공 챗봇 </div>
-<div align=center> 
+<div> 
   <p>LGU+ 2기 Final Project Team 1</p>
   <br>
   <h3>주제</h3>
