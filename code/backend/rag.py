@@ -311,9 +311,9 @@ def load_all_data(file_paths):
     processed_data.extend(unranked_processed)
     # print(f"unranked 파일 처리 완료: {unranked_data} - {len(unranked_processed)}개 항목")
 
-    apt_competition_data = rag_data("apt_housing_competition_rate")
-    apt_competition_processed = _process_csv_apt_competition_data(apt_competition_data)
-    processed_data.extend(apt_competition_processed)
+    # apt_competition_data = rag_data("apt_housing_competition_rate")
+    # apt_competition_processed = _process_csv_apt_competition_data(apt_competition_data)
+    # processed_data.extend(apt_competition_processed)
     # print(f"apt_competition 파일 처리 완료: {apt_competition_data} - {len(apt_competition_processed)}개 항목")
     
 
@@ -451,7 +451,7 @@ class RAGChatbot:
 
 
 
-    def find_most_similar_sections(self, query, top_k=300, title_weight=1.5, region_weight=1.2, competition_rate_weight=2.0, source_type_weight=1.3):
+    def find_most_similar_sections(self, query, top_k=500, title_weight=1.5, region_weight=1.2, competition_rate_weight=1.2, source_type_weight=2.0, start_weight=1.6):
         """
         유사 문서 검색 - '오늘', '가장 최근' 기준 및 경쟁률 데이터를 포함한 가중치 처리
         :param query: 검색할 쿼리
@@ -469,59 +469,54 @@ class RAGChatbot:
             similar_sections = []
             today = datetime.now()
 
-            # '오늘' 또는 '가장 최근' 단어 확인
-            is_recent_query = any(keyword in query for keyword in ['오늘', '가장 최근'])
-
-            # '경쟁률' 포함 여부 확인
-            is_competition_query = '경쟁률' in query
+            # '오늘', '가장 최근' 쿼리 여부 확인
+            is_recent_query = any(keyword in query for keyword in ['오늘', '가장 최근', '최근'])
+            is_day_query = any(keyword in query for keyword in ['청약일', '청약신청일'])
 
             for i, (doc, metadata) in enumerate(zip(results['documents'][0], results['metadatas'][0])):
                 # 기본 거리 계산
                 base_distance = results['distances'][0][i]
                 adjusted_distance = base_distance
 
-                # 가중치 적용
-                if 'title' in metadata and query.lower() in metadata['title'].lower():
-                    adjusted_distance /= title_weight
+                # 타이틀 유사도 계산
+                if 'apartment_name' in metadata:
+                    title = metadata['apartment_name'].lower()
+                    query_lower = query.lower()
+
+                    if query_lower in title:  # 정확 매칭 또는 포함 여부 확인
+                        if query_lower == title:  # 완전 일치
+                            adjusted_distance = 0.001  # 가장 높은 우선순위
+                        else:  # 부분 일치
+                            adjusted_distance /= title_weight
+
+                # 지역 가중치
                 if 'region' in metadata and query.lower() in metadata['region'].lower():
                     adjusted_distance /= region_weight
 
-                # 경쟁률 가중치 적용 (경쟁률 쿼리인 경우)
-                if is_competition_query and 'competition_rate' in metadata:
-                    try:
-                        competition_rate = float(metadata['competition_rate'])
-                        adjusted_distance /= (1 + competition_rate / competition_rate_weight)
-                    except (ValueError, TypeError):
-                        pass  # 경쟁률 값이 없거나 형식이 잘못된 경우 무시
+                # 날짜 관련 가중치
+                if is_day_query and 'start_date' in metadata:
+                    adjusted_distance /= start_weight
 
-                # source_type 가중치 적용 (경쟁률 쿼리가 아닌 경우)
-                if not is_competition_query and 'source_type' in metadata:
-                    if metadata['source_type'] in ['unranked_csv', 'apt_csv']:
-                        adjusted_distance /= source_type_weight
-
-                # '오늘' 또는 '가장 최근' 기준 추가
+                # '오늘', '최근' 기준 추가
                 if is_recent_query and 'start_date' in metadata:
                     try:
                         start_date = datetime.fromisoformat(metadata['start_date'])
                         days_difference = abs((today - start_date).days)
-                        adjusted_distance /= (1 + 1 / (1 + days_difference))  # 날짜가 가까울수록 유사도 증가
+                        adjusted_distance /= (1 + 1 / (1 + days_difference))
                     except ValueError:
-                        pass  # start_date 형식이 잘못된 경우 무시
+                        pass
 
                 # 청약 신청 가능 여부 필터링
                 start_date_str = metadata.get('start_date')
                 end_date_str = metadata.get('end_date')
 
                 try:
-                    # 날짜 파싱
                     start_date = datetime.fromisoformat(start_date_str) if start_date_str else None
                     end_date = datetime.fromisoformat(end_date_str) if end_date_str else None
 
-                    # 청약 신청 가능 여부 체크
-                    is_active = start_date and end_date and start_date <= today <= end_date
-
                     # 청약 신청 가능한 항목만 추가
-                    if is_active or not is_recent_query:  # '오늘' 또는 '가장 최근' 쿼리가 아닌 경우도 포함
+                    is_active = start_date and end_date and start_date <= today <= end_date
+                    if is_active or not is_recent_query:
                         section_data = {
                             'title': metadata.get('title', '정보 없음'),
                             'content': doc,
@@ -530,39 +525,12 @@ class RAGChatbot:
                         }
                         similar_sections.append(section_data)
                 except ValueError:
-                    # 날짜 형식 오류 발생 시 무시
                     pass
 
             # 거리 기준으로 정렬 (낮을수록 유사)
             similar_sections.sort(key=lambda x: x['distance'])
 
-            # '경쟁률' 쿼리에 대한 추가 처리
-            if is_competition_query:
-                processed_competition_data = [
-                    {
-                        'title': f"{metadata.get('apartment_name', '정보 없음')}_경쟁률_데이터",
-                        'content': (
-                            f"지역: {metadata.get('region', '정보 없음')}\n"
-                            f"아파트 이름: {metadata.get('apartment_name', '정보 없음')}\n"
-                            f"경쟁률: {metadata.get('competition_rate', '정보 없음')}\n"
-                            f"타입: {metadata.get('house_type', '정보 없음')}\n"
-                        ),
-                        'metadata': {
-                            'source_type': 'apt_competition_csv',
-                            'apartment_name': metadata.get('apartment_name', '정보 없음'),
-                            'region': metadata.get('region', '정보 없음'),
-                            'competition_rate': metadata.get('competition_rate', '정보 없음'),
-                            "house_type": metadata.get('house_type', '정보 없음'),
-                            'has_table': True
-                        },
-                        'distance': adjusted_distance
-                    }
-                    for metadata in results['metadatas'][0] if 'competition_rate' in metadata
-                ]
-
-                similar_sections.extend(processed_competition_data)
-
-            return similar_sections
+            return similar_sections[:30]
         except Exception as e:
             print(f"유사 문서 검색 중 오류 발생: {str(e)}")
             raise
@@ -657,9 +625,35 @@ class RAGChatbot:
 
     def _create_prompt(self, query, context):
         """프롬프트 생성"""
-        return f"""아래는 한국 주택 청약과 관련된 문서에서 추출한 관련 정보와 사용자의 질문입니다.
+        return f"""아래는 한국 주택 청약과 관련된 문서에서 추출한 관련 정보와 사용자의 질문입니다. 
 주어진 정보를 참고하여 사용자의 질문에 친절하게 답변해주세요.
 
+
+모든 문장의 마지막에는 '~용'을 붙입니다
+예시: '안녕하세용', '반가워용', '고마워용'
+존댓말을 사용하되, 친근하고 부드러운 어조를 유지합니다.
+예시: '도와드릴게용', '말씀해주세용'
+'이에요/예요' 대신 '이에용/예용'을 사용합니다.
+예시: '그건 어려울 것 같아용', '제가 할 수 있는 일이에용'
+질문할 때는 '~용?'으로 끝냅니다.
+예시: '무엇을 도와드릴까용?', '어떠셨나용?'
+
+이에요. 혹은 요. 로 끝나는 문장 뒤에 용은 붙일 필요 없어.
+
+## General
+- Answer in Korean. However, please use English for jargon and important keywords, or write "Korean(English)".
+- Always answer in markdown format. I mostly use markdown headings 2(##) and 4(####), with body content in bullets.
+- Follow the commands step-by-step.
+- Don't make mistakes.
+- Never omit. show me everything, don't skip anything. Always describe the entire item and its data.
+- Include footnotes in Obsidian(markdown) format
+- Keep responses unique and free of repetition. 
+- Never suggest seeking information from elsewhere.
+- Always focus on the key points in my questions to determine my intent. 
+- Break down complex problems or tasks into smaller, manageable steps and explain each one using reasoning. 
+- Provide multiple perspectives or solutions. 
+- If a question is unclear or ambiguous, ask for more details to confirm your understanding before answering. 
+- Take a deep breath, and work on this step by step.
 {context}
 
 사용자 질문: {query}
