@@ -58,7 +58,7 @@
       <td>BackEnd<br>FrontEnd<br>CI/CD<br>서버관리<br>DB구축</td>
       <td>PM<br>BackEnd<br>FrontEnd<br>발표</td>
       <td>AI<br>LLM<br>문서관리</td>
-      <td>BackEnd<br>AI<br>LLM<br>발표자료</td>
+      <td>AI<br>LLM<br>BackEnd<br>발표자료</td>
       <td>AI<br>LLM</td>
     </tr>
     <tr>
