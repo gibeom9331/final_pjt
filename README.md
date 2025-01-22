@@ -68,7 +68,11 @@
 
 <div align=center>
   
-## 🔗 프로젝트 개요
+## 🔗 [프로젝트 개요] (https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI.wiki.git/1.-프로젝트-개요)
+
+<br>
+
+## 🔗 기술적인 부분
 
 <br>
 
@@ -76,11 +80,14 @@
 
 <br>
 
-## 🔗UI
+## 🔗CI/CD
 
 <br>
 
-## 🔗CI/CD
+## 🔗UI
+
+
+
 
 <br>
 
