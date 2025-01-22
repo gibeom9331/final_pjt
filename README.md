@@ -13,7 +13,7 @@
 <br>
 
 ## <div align=center> 😎 팀원소개 </div>
-<div align=center>
+<!-- <div align=center>
 <table>
   <tbody>
     <tr>
@@ -26,7 +26,65 @@
     </tr>
   </tbody>
 </table>
-</div>
+</div> -->
+
+<table style="width:100%; text-align:center; table-layout:fixed; border-collapse:collapse;">
+  <colgroup>
+    <!-- 전체 5열이므로 20%씩 -->
+    <col style="width:20%;">
+    <col style="width:20%;">
+    <col style="width:20%;">
+    <col style="width:20%;">
+    <col style="width:20%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>강이삭</th>
+      <th>강진모</th>
+      <th>박기범</th>
+      <th>유다은</th>
+      <th>유상범</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="https://upload3.inven.co.kr/upload/2023/12/17/bbs/i15552721117.jpg" style="width:150px; height:auto;" alt="강이삭"></td>
+      <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiW3TaT-mMeBtq8Lg4v0xeqEa7jj0Vf9RBPg&s" style="width:150px; height:auto;" alt="강진모"></td>
+      <td><img src="https://cdn.ppomppu.co.kr/zboard/data3/2022/0509/20220509173224_d9N4ZGtBVR.jpeg" style="width:150px; height:auto;" alt="박기범"></td>
+      <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpP7-Z-u3mQZnX2RveC1-VGmAhwc5ASjDeIa7sOkqwHH0rQlTjthqCuaI58uZ8Ip2B&usqp=CAU" style="width:150px; height:auto;" alt="유다은"></td>
+      <td><img src="https://pbs.twimg.com/media/E4VZkLvVgAQC5GU.jpg" style="width:150px; height:auto;" alt="유상범"></td>
+    </tr>
+    <tr>
+      <td>PM<br>데이터 파이프라인</td>
+      <td>DB구축<br>클라우드 관리</td>
+      <td>AI<br>프론트엔드</td>
+      <td>AI<br>백엔드</td>
+      <td>AI<br>데이터 파이프라인</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/isak-kang" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
+        </a>
+</td>
+      <td><a href="https://github.com/kjmfficial" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
+        </a></td>
+      <td><a href="https://github.com/gibeom9331" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
+        </a></td>
+      <td><a href="https://github.com/yoda2194" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
+        </a></td>
+      <td><a href="https://github.com/YuSangBeom" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
+        </a></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+
+
 
 ## <div align=center>📚 Tech Stack 📚</div>
 
