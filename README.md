@@ -42,33 +42,35 @@
   </colgroup>
   <thead>
     <tr>
+      <th>유상범</th>
       <th>강이삭</th>
       <th>강진모</th>
       <th>박기범</th>
       <th>유다은</th>
-      <th>유상범</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td><img src="https://pbs.twimg.com/media/E4VZkLvVgAQC5GU.jpg" style="width:150px; height:auto;" alt="유상범"></td>
       <td><img src="https://upload3.inven.co.kr/upload/2023/12/17/bbs/i15552721117.jpg" style="width:150px; height:auto;" alt="강이삭"></td>
       <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiW3TaT-mMeBtq8Lg4v0xeqEa7jj0Vf9RBPg&s" style="width:150px; height:auto;" alt="강진모"></td>
       <td><img src="https://cdn.ppomppu.co.kr/zboard/data3/2022/0509/20220509173224_d9N4ZGtBVR.jpeg" style="width:150px; height:auto;" alt="박기범"></td>
       <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpP7-Z-u3mQZnX2RveC1-VGmAhwc5ASjDeIa7sOkqwHH0rQlTjthqCuaI58uZ8Ip2B&usqp=CAU" style="width:150px; height:auto;" alt="유다은"></td>
-      <td><img src="https://pbs.twimg.com/media/E4VZkLvVgAQC5GU.jpg" style="width:150px; height:auto;" alt="유상범"></td>
     </tr>
     <tr>
+      <td>RAG<br>LLM<br>데이터 전처리</td>
       <td>BackEnd<br>FrontEnd<br>CI/CD<br>서버관리<br>DB구축</td>
       <td>PM<br>BackEnd<br>FrontEnd<br>발표</td>
-      <td>AI<br>LLM<br>문서관리</td>
-      <td>AI<br>LLM<br>BackEnd<br>데이터 전처리<br>발표자료</td>
-      <td>AI<br>LLM<br>데이터 전처리</td>
+      <td>RAG<br>LLM<br>문서관리</td>
+      <td>RAG<br>LLM<br>BackEnd<br>데이터 전처리<br>발표자료</td>
     </tr>
     <tr>
+      <td><a href="https://github.com/YuSangBeom" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
+        </a></td>
       <td><a href="https://github.com/isak-kang" target="_blank">
           <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
-        </a>
-</td>
+        </a></td>
       <td><a href="https://github.com/kjmfficial" target="_blank">
           <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
         </a></td>
@@ -76,9 +78,6 @@
           <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
         </a></td>
       <td><a href="https://github.com/yoda2194" target="_blank">
-          <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
-        </a></td>
-      <td><a href="https://github.com/YuSangBeom" target="_blank">
           <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
         </a></td>
     </tr>
@@ -111,7 +110,7 @@
 
   API : 
   <img src="https://img.shields.io/badge/OpenAI API-412991?style=for-the-badge&logo=openai&logoColor=white">
-  <img src="https://img.shields.io/badge/googlegemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"><br>
+  <img src="https://img.shields.io/badge/googlegemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white">
   <img src="https://img.shields.io/badge/Naver%20API-03C75A?style=for-the-badge&logo=naver&logoColor=white"><br>
 
 
