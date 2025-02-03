@@ -179,7 +179,7 @@
 
 # 🔗 [프로젝트 개요](https://github.com/whynotsw-camp/wh02-3rd-1team-CHEONGYAGI/wiki/1.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94)
 <details>
-  <summary>문제 인식 및 원인인</summary>
+  <summary>문제 인식 및 원인</summary>
   
   1. 청약 부적격자들 증가<br>
   ![image](https://github.com/user-attachments/assets/57fc0e6b-6cfa-4f82-a93b-72ef30ddc1da)
@@ -206,7 +206,7 @@
   4. 24시간 접근 가능한 정보 제공 플랫폼 구축<br>
 </details>
 <details>
-  <summary>해결방안</summary>
+  <summary>기대효과</summary>
   
   1. 청약 제도 이해도 향상<br>
   - 주요 타겟층(사회초년생, 대학생, 신혼부부)의 청약 제도 이해도 제공 <br>
